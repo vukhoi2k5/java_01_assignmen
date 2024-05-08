@@ -26,7 +26,7 @@ public class function {
         plist.setDescribe(describe);
         plist.setAvatar(avatar);
         plist.setWriter(writer);
-        plist.setDateOfWriting(date);
+        plist.setDateofwriting(date);
         System.out.println("Saved successfully" );
     }
     // Hiển thị toàn bộ danh sách
@@ -34,7 +34,7 @@ public class function {
         System.out.printf("%-10s ||%-10s ||%-10s ||%-10s ||%-10s ||%-10s\n", "Id", "Article title", "describe", "avatar", "writer", "date of writing");
         for (int i = 0; i < postlists.size(); i++) {
             postList pl = postlists.get(i);
-            System.out.printf("%-10s ||%-10s ||%-10s ||%-10s ||%-10s ||%-10s\n", pl.getId(), pl.getArticleTitle(), pl.getDescribe(), pl.getAvatar(), pl.getWriter(), pl.getDateOfWriting());
+            System.out.printf("%-10s ||%-10s ||%-10s ||%-10s ||%-10s ||%-10s\n", pl.getId(), pl.getArticleTitle(), pl.getDescribe(), pl.getAvatar(), pl.getWriter(), pl.getDateofwriting());
         }
     }
     // tìm kiếm qua Id
@@ -48,7 +48,7 @@ public class function {
             if (pl.getId() == postID) {
                 key = postID;
                 System.out.printf("%-10s ||%-10s ||%-10s ||%-10s ||%-10s ||%-10s\n", "Id", "Article title", "describe", "avatar", "writer", "date of writing");
-                System.out.printf("%-10s ||%-10s ||%-10s ||%-10s ||%-10s ||%-10s\n", pl.getId(), pl.getArticleTitle(), pl.getDescribe(), pl.getAvatar(), pl.getWriter(), pl.getDateOfWriting());
+                System.out.printf("%-10s ||%-10s ||%-10s ||%-10s ||%-10s ||%-10s\n", pl.getId(), pl.getArticleTitle(), pl.getDescribe(), pl.getAvatar(), pl.getWriter(), pl.getDateofwriting());
             }
         }
         if (key == -1) {

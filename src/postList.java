@@ -1,10 +1,10 @@
 public class postList {
     long id;
     String articleTitle;
-    String Describe;
-    String Avatar;
+    String describe;
+    String avatar;
     String writer ;
-    String DateOfWriting;
+    String dateofwriting;
     public postList(){
     }
 
@@ -17,27 +17,27 @@ public class postList {
     }
 
     public String getAvatar() {
-        return Avatar;
+        return avatar;
     }
 
     public void setAvatar(String avatar) {
-        Avatar = avatar;
+        this.avatar = avatar;
     }
 
-    public String getDateOfWriting() {
-        return DateOfWriting;
+    public String getDateofwriting() {
+        return dateofwriting;
     }
 
-    public void setDateOfWriting(String dateOfWriting) {
-        DateOfWriting = dateOfWriting;
+    public void setDateofwriting(String dateofwriting) {
+        this.dateofwriting = dateofwriting;
     }
 
     public String getDescribe() {
-        return Describe;
+        return describe;
     }
 
     public void setDescribe(String describe) {
-        Describe = describe;
+        this.describe = describe;
     }
 
     public long getId() {
