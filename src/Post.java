@@ -33,6 +33,8 @@ public class Post {
                 case 5:
                     flag = false;
                     break;
+                default:
+                    System.out.println("Invalid choice");
             }
         }
     }

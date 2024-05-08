@@ -27,6 +27,7 @@ public class function {
         plist.setAvatar(avatar);
         plist.setWriter(writer);
         plist.setDateOfWriting(date);
+        System.out.println("Saved successfully" );
     }
     // Hiển thị toàn bộ danh sách
     public void showPostList() {
@@ -65,6 +66,7 @@ public class function {
             if (pl.getId() == postID) {
                 key = postID;
                 postlists.remove(i);
+                System.out.println("Deleted successfully");
             }
         }
         if (key == -1) {
