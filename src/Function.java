@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class function {
+public class Function {
     ArrayList<postList> postlists = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
     // Thêm mới
