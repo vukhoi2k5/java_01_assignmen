@@ -6,7 +6,7 @@ public class Post {
     }
     public static void choice() {
         Scanner scanner = new Scanner(System.in);
-        Function function1 = new Function();
+        PostController function1 = new PostController();
         function1.createPostList();
         boolean flag = true;
         while (flag) {

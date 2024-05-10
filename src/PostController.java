@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Function {
+public class PostController {
     ArrayList<postList> postlists = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
     // Thêm mới
@@ -36,6 +36,8 @@ public class Function {
             postList pl = postlists.get(i);
             System.out.printf("%-10s ||%-10s ||%-10s ||%-10s ||%-10s ||%-10s\n", pl.getId(), pl.getArticleTitle(), pl.getDescribe(), pl.getAvatar(), pl.getWriter(), pl.getDateofwriting());
         }
+        System.out.println("Press Enter to continue.");
+        scanner.nextLine();
     }
     // tìm kiếm qua Id
     public void searchPostList() {
